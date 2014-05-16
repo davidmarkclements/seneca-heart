@@ -2,9 +2,10 @@
   "name": "seneca-heart",
   "version": "0.0.2",
   "description": "seneca-heart ============",
-  "main": "heart.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha -u qunit",
+    "debug-test": "node_modules/.bin/node-debug -c node_modules/.bin/_mocha -u qunit"
   },
   "repository": {
     "type": "git",
@@ -14,15 +15,13 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "seneca": "~0.5.17"
+    "seneca": "^0.5.17",
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
   },
   "dependencies": {
     "nid": "~0.3.2",
-    "underscore": "~1.6.0"
-  },
-  "files": [
-    "heart.js",
-    "README.md",
-    "LICENSE"
-  ]
+    "underscore": "~1.6.0",
+    "seneca-jsonfile-store": "https://github.com/rjrodger/seneca-jsonfile-store/archive/master.tar.gz"
+  }
 }
