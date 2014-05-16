@@ -22,6 +22,6 @@
   "dependencies": {
     "nid": "~0.3.2",
     "underscore": "~1.6.0",
-    "seneca-jsonfile-store": "https://github.com/rjrodger/seneca-jsonfile-store/archive/master.tar.gz"
+    "seneca-jsonfile-store": "https://github.com/davidmarkclements/seneca-jsonfile-store/archive/master.tar.gz"
   }
 }
