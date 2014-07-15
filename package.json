@@ -15,13 +15,14 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "seneca": "^0.5.17",
+    "seneca": "^0.5.19",
     "chai": "^1.9.1",
-    "mocha": "^1.18.2"
+    "mocha": "^1.18.2",
   },
   "dependencies": {
     "nid": "~0.3.2",
     "underscore": "~1.6.0",
-    "seneca-jsonfile-store": "https://github.com/davidmarkclements/seneca-jsonfile-store/archive/master.tar.gz"
+    "seneca-jsonfile-store": "^0.1.8",
+    "seneca-jsonfile-store-watcher": "https://github.com/davidmarkclements/seneca-jsonfile-store-watcher/archive/master.tar.gz"
   }
 }
